@@ -1,4 +1,14 @@
-# Example slideshows for Eagle.js
+# GDG Polymer México - Testing
+* Repo name to be changed.
+The purpose of this repository is to upload personal presentations made with Eagle.js
+Anyone can download and fork this demo presentation proyect.
+
+## Presentations
+
+### Introduction to Testing
+Presented on July 28, 2017 for the GDG Polymer México community in México City.
+
+## About Eagle.js
 
 This folder/repo contains the source of a demo Eagle.JS webpage featuring a few slideshows. [Here is the page in action](https://zulko.github.io/eaglejs-demo/#/).
 
