@@ -3,23 +3,12 @@
   .content
     h1
       span.logo
-      span Eagle
-      span.grey .js
-    h2 A slideshow framework for hackers
+    h2 Guillermo Beltran - Frontend Developer @Segundamano.mx
 
-
-    iframe.github-star(src="https://ghbtns.com/github-btn.html?user=zulko&repo=eagle.js&type=star&count=true&size=large"
-                       frameborder="0" scrolling="0" width="160px" height="30px")
     p.
       Eagle.js is a web-based slideshow framework for Vue.js.
       It supports animations, themes, interactive widgets (for web demos),
       and makes it easy to reuse components, slides and styles across presentations.
-
-    p.
-      Most of all, Eagle aims at offering a simple and very hackable API so you
-      can get off the beaten tracks and craft the slideshows you really want.
-
-
 
     .thumbnails
       .box-card(v-for='slideshow in slideshows')
@@ -31,6 +20,9 @@
         .caption
           h3 {{slideshow.infos.title}}
           p.thumbnail-description {{slideshow.infos.description}}
+
+    p.home-footer.
+      These presentations are powered by <a href='https://github.com/zulko/eagle.js/' target='_blank' style="text-decoration: underline;">Eagle.js</a>. A hackable slideshow framework built with Vue.js
 </template>
 
 <script>
@@ -43,7 +35,6 @@ export default {
     }
   },
   mounted: function () {
-    console.log(this.slideshows)
     document.currentSlide = {}
   },
   methods: {
@@ -68,9 +59,8 @@ export default {
   background-repeat: no-repeat;
 }
 
-.github-star {
-  display: block;
-  margin: 0 auto;
-  margin-top: -10px;
+.home-footer {
+  font-size: 14px;
+  text-align: center;
 }
 </style>

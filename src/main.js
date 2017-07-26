@@ -7,7 +7,8 @@ import Home from './Home'
 
 import Eagle from 'eagle.js'
 
-import slideshows from './slideshows/slideshows.js'
+// import slideshows from './slideshows/slideshows.js'
+import slideshows from './slideshows/slideshows'
 /* eslint-disable no-new */
 
 Vue.use(Eagle)
